@@ -1,0 +1,118 @@
+html{
+    background-image: url(../images/background-terrain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+body{
+    margin: auto;
+    height: auto;
+    width: 80%;
+}
+
+.navbar{
+    background-image: url(../images/bandeau-foot.jpg);
+    width: 100%;
+}
+
+.navbar{
+    color: aliceblue;
+}
+
+header a{
+    color: aliceblue;
+}
+
+h1{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 20px;
+}
+
+.carousel{
+    display: none;
+}
+
+.container{
+    padding: 50px;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+.article{
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+
+.embed-responsive{
+    width: 70%;
+}
+
+.list-group{
+    width: 90%;
+
+}
+
+footer{
+    margin-top: 20px;
+    height: 70px;
+    width: 100%;
+    border-top: 1px solid rgb(10, 106, 233);
+    padding-top: 10px;
+}
+
+main form{
+    padding: 50px;
+}
+
+main form h2{
+    height: 80px;
+    text-align: center;
+}
+
+.carousel-caption{
+    color: rgb(10, 106, 233);
+    background-color: rgb(224, 224, 224);
+    
+}
+
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+  
+    
+
+    .featurette-heading {
+      font-size: 30px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+
+    .carousel{
+        display: block;
+        width: 100%;
+        padding: 50px;
+        background-color: rgb(224, 224, 224);
+    }
+
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+
+    footer{
+        padding-top:25px;
+    }
+  }  
